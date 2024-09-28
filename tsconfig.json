@@ -1,0 +1,20 @@
+{
+	"extends": "@flowr/tsconfig/tsconfig.strict.json",
+	"compilerOptions": {
+		"types": ["node"],
+		"exactOptionalPropertyTypes": false,
+		"noPropertyAccessFromIndexSignature": false,
+		"removeComments": false,
+		"skipDefaultLibCheck": true,
+		"skipLibCheck": true
+	},
+	"exclude": [
+		"**/vendor/**",
+		"**/node_modules/**",
+		"**/dist/**",
+		"**/build/**",
+		"**/fixtures/**",
+		"**/.fixtures/**",
+		"**/_fixtures/**"
+	]
+}
