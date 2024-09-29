@@ -1,12 +1,7 @@
 {
-	"extends": "@flowr/tsconfig/tsconfig.strict.json",
+	"extends": "@flowr/typescript/tsconfig.strict.json",
 	"compilerOptions": {
-		"types": ["node"],
-		"exactOptionalPropertyTypes": false,
-		"noPropertyAccessFromIndexSignature": false,
-		"removeComments": false,
-		"skipDefaultLibCheck": true,
-		"skipLibCheck": true
+		"types": ["node"]
 	},
 	"exclude": [
 		"**/vendor/**",

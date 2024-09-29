@@ -11,9 +11,9 @@ importers:
       '@flowr/eslint-config':
         specifier: ^4.4.0
         version: 4.4.0(@typescript-eslint/utils@8.7.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.6.2))(eslint@9.11.1(jiti@1.21.6))(typescript@5.6.2)
-      '@flowr/tsconfig':
+      '@flowr/typescript':
         specifier: ^4.4.0
-        version: 4.4.0(typescript@5.6.2)
+        version: 4.4.1(typescript@5.6.2)
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
@@ -312,10 +312,9 @@ packages:
       vue-eslint-parser:
         optional: true
 
-  '@flowr/tsconfig@4.4.0':
-    resolution: {integrity: sha512-TfaBZ6Qpn0IUc/vjyUEb/h6HodaBkv6D5GGD27RVMdrwasX1xTQJuNlfAQwFzya6hzslNsLiMa4NnpJDaLrUnw==}
+  '@flowr/typescript@4.4.1':
+    resolution: {integrity: sha512-NYh4hKQ0Si35+qodsLenJHHpHaK1NkLDY643zfBzki0wo0iRq4l6MzbH/4EphJwD8H0WwDUvsHM6EttTq7RbwA==}
     engines: {node: '>=20'}
-    deprecated: use `@flowr/typescript` instead
     peerDependencies:
       typescript: '>=5'
 
@@ -1886,7 +1885,7 @@ snapshots:
       - typescript
       - vitest
 
-  '@flowr/tsconfig@4.4.0(typescript@5.6.2)':
+  '@flowr/typescript@4.4.1(typescript@5.6.2)':
     dependencies:
       typescript: 5.6.2
 
